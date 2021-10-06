@@ -48,6 +48,16 @@ TXT
 bearscap.save( "./MyPunks/Attributes/bearscap.png" )
 bearscap.zoom(4).save( "./MyPunks/Attributes/bearscap4x.png" )
 
+chriscap = Image.parse( <<TXT, colors: ['000000', 'BA0C2F'] )
+. . @ @ @ @ @ @ @ . . . . .
+. @ @ @ @ @ @ x @ @ . . . .
+@ @ @ @ @ @ @ @ x @ . . . .
+@ @ @ @ @ @ @ @ @ @ @ @ @ .
+@ @ @ @ @ @ @ @ @ @ @ @ @ @
+TXT
+chriscap.save( "./MyPunks/Attributes/chriscap.png" )
+chriscap.zoom(4).save( "./MyPunks/Attributes/chriscap4x.png" )
+
 bluecap = Image.parse( <<TXT, colors: ['0033A0', 'FFFFFF'] ) 
 . . @ @ @ @ @ @ @ . . . . .
 . @ @ @ @ @ @ x @ @ . . . .
@@ -257,3 +267,30 @@ jimBeard = Image.parse( <<TXT,  colors: ['858585']  )
 TXT
 jimBeard.save( "./MyPunks/Attributes/jimBeard.png" )
 jimBeard.zoom(4).save( "./MyPunks/Attributes/jimBeard4x.png" )
+
+
+hair = Image.parse( <<TXT,  colors: ['8f5d20']  )
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . @ @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ . . . . . . . .
+. . . . . . @ @ @ @ @ @ @ @ @ @ . . . . . . . .
+. . . . . . @ @ @ . . @ @ @ . @ . . . . . . . .
+. . . . . . @ @ . . . . @ . . . . . . . . . . .
+. . . . . . @ @ . . . . . . . . . . . . . . . .
+. . . . . . @ . . . . . . . . . . . . . . . . .
+. . . . . . @ . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+hair.save( "./MyPunks/Attributes/hair.png" )
+hair.zoom(4).save( "./MyPunks/Attributes/hair4x.png" )
