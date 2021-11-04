@@ -618,7 +618,6 @@ def writeFile(codes)
 end
 
 def main()
-    #background, face, hat, beard, eyes, mouth
     PUNK_CODES.each_with_index do |code, i|   
         unless i == 1 
             generatePunk(code, i) 
